@@ -18,7 +18,8 @@ rename.sh:
 
 downScaleJPGs.sh:
   - This script will downscale all (.jpg files by default) by 4, 8 or 16 depending on the Quality of them.
-  - This is useful if you can't find any lossless images for training ESRGAN
+  - If you change the script to use something else than jpg (like png for example), it will always downscale it by a factor of 4 (can be changed)
+  - This is useful if you can't find any lossless images for training ESRGAN in the case of jpg files.
   - It utilizes the box filter, which can also be used to perform Pixel binning, since it averages pixels in each "box" instead of using just one of them like Nearest Neighbor would, preserving Detail and Sharpness.
 
 # For using ESRGAN
