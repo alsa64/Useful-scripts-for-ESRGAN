@@ -11,6 +11,8 @@ valDiffToHR.sh:
   - By default, it is configured to work with a ctp installation as Deorder recommends it.
 
 runESRGAN.sh
-  - This script will run ESRGAN with Deorder's scripts. Add -s=(scale) to select the scale for ESRGAN.
+  - This script will run ESRGAN with Deorder's scripts on all models with the scale of your choice. 
+  - Add -s=(scale) to select the scale for ESRGAN.
   - Put all models in ./esrgan/models/(scale)/ for it to work
   - The output will be in ./output/(scale)/(modelname)
+  - Put it in the ctp (Deorder's scripts directory)
