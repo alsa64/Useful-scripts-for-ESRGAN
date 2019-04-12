@@ -14,6 +14,7 @@ valDiffToHR.sh:
 rename.sh:
   - This script will rename all (.png files by default) to a number (with 4 digits by default).
   - Makes it easier to find validation images for example, if they are all just a number.
+  - Put it where the files you want to rename are.
 
 # For using ESRGAN
 
