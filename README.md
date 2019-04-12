@@ -16,6 +16,11 @@ rename.sh:
   - Makes it easier to find validation images for example, if they are all just a number.
   - Put it where the files you want to rename are.
 
+downScaleJPGs.sh:
+  - This script will downscale all (.jpg files by default) by 4, 8 or 16 depending on the Quality of them.
+  - This is useful if you can't find any lossless images for training ESRGAN
+  - It utilizes the box filter, which can also be used to perform Pixel binning, since it averages pixels in each "box" instead of using just one of them like Nearest Neighbor would, preserving Detail and Sharpness.
+
 # For using ESRGAN
 
 runESRGAN.sh
