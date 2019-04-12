@@ -1,4 +1,4 @@
-# Usefull-scripts-for-ESRGAN
+# Useful-scripts-for-ESRGAN
 A few useful scripts when training using ESRGAN
 
 
